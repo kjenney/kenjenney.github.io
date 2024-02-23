@@ -1,3 +1,4 @@
 site_name: Ken Jenney
 theme:
+  name: readthedocs
   favicon: images/favicon.png
