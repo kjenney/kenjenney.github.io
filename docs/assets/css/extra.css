@@ -1,4 +1,5 @@
 body {
-    background-image: url("assets/milky_way.png");
-    background-color: #cccccc;
+    /* background-image: url("assets/milky_way.png"); */
+    /* background-color: #cccccc; */
+    --md-default-bg-color: red;
 }
