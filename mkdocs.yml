@@ -8,24 +8,20 @@ plugins:
       # (optional) tells multirepo to cleanup the temporary directory after site is built.
       cleanup: false
       nav_repos:
-        - name: backstage
-          import_url: https://github.com/backstage/backstage
+        - name: resume
+          import_url: https://github.com/kjenney/myresume
           # forward slash is needed in '/README.md' so that only the README.md in the root
           # directory is imported and not all README.md files.
           imports: [
-            docs/publishing.md, docs/integrations/index.md, /README.md,
+            docs/certifications.md, docs/education.md, docs/index.md, docs/experience.md, docs/skills.md
             # asset files needed
-            docs/assets/*
+            # docs/assets/*
             ]
-        - name: fast-api
-          import_url: https://github.com/tiangolo/fastapi
-          imports: [docs/en/docs/index.md]
 
 nav:
-  - Backstage:
-      - Home: backstage/README.md
-      - Integration: backstage/docs/integrations/index.md
-      - Publishing: backstage/docs/publishing.md
-  - FastAPI: fast-api/docs/en/docs/index.md
-  # you can still use the !import statement
-  - MkdocStrings: '!import https://github.com/mkdocstrings/mkdocstrings'
+  - resume:
+      - Home: resume/docs/index.md
+      - Certifications: resume/docs/certifications.md
+      - Education: resume/docs/education.md
+      - Experience: resume/docs/experience.md
+      - Skills: resume/docs/skills.md
