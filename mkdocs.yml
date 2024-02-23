@@ -1,6 +1,6 @@
 site_name: Ken Jenney
 theme:
-  name: bootstrap
+  name: readthedocs
   favicon: images/favicon.png
 plugins:
   - search
