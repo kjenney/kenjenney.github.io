@@ -9,9 +9,7 @@ plugins:
       cleanup: false
       nav_repos:
         - name: resume
-          import_url: https://github.com/kjenney/myresume?edit_uri=/blob/main/
-          # forward slash is needed in '/README.md' so that only the README.md in the root
-          # directory is imported and not all README.md files.
+          import_url: https://github.com/kjenney/myresume?branch=main
           imports: [
             docs/certifications.md, docs/education.md, docs/index.md, docs/experience.md, docs/skills.md
             # asset files needed
