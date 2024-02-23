@@ -15,9 +15,12 @@ plugins:
             # asset files needed
             # docs/assets/*
             ]
+        - name: fast-api
+          import_url: https://github.com/tiangolo/fastapi
+          imports: [docs/en/docs/index.md]
 
 nav:
-  - resume:
+  - Resume:
       - Home: resume/docs/index.md
       - Certifications: resume/docs/certifications.md
       - Education: resume/docs/education.md
