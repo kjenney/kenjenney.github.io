@@ -11,17 +11,14 @@ plugins:
         - name: resume
           import_url: https://github.com/kjenney/myresume?branch=main
           imports: [
-            docs/certifications.md, docs/education.md, docs/index.md, docs/experience.md, docs/skills.md
+            docs/certifications.md, docs/education.md, docs/contact.md, docs/experience.md, docs/skills.md
             # asset files needed
             # docs/assets/*
             ]
-        - name: fast-api
-          import_url: https://github.com/tiangolo/fastapi
-          imports: [docs/en/docs/index.md]
 
 nav:
   - Resume:
-      - Home: resume/docs/index.md
+      - Contact Info: resume/docs/contact.md
       - Certifications: resume/docs/certifications.md
       - Education: resume/docs/education.md
       - Experience: resume/docs/experience.md
