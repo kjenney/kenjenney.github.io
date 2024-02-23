@@ -15,6 +15,9 @@ plugins:
             # asset files needed
             # docs/assets/*
             ]
+        - name: tgw-tester
+          import_url: https://github.com/kjenney/terraform-aws-tgw-tester?branch=main
+          imports: [docs/index.md]
 
 nav:
   - Resume:
@@ -23,3 +26,6 @@ nav:
       - Education: resume/docs/education.md
       - Experience: resume/docs/experience.md
       - Skills: resume/docs/skills.md
+  - Projects:
+      - Terraform:
+        - AWS Transit Gateway Tester: tgw-tester/docs/index.md
