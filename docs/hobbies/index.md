@@ -1,5 +1,3 @@
-# Hobbies
-
 ## Sci-Fi
 
 I love all things Sci-Fi.
