@@ -74,5 +74,6 @@ nav:
   - Projects:
       - Terraform:
         - AWS Transit Gateway Tester: tgw-tester/docs/index.md
-  - Hobbies: hobbies/index.md
+  - Hobbies: 
+      - hobbies/index.md
       - AI: ai/docs/index.md
