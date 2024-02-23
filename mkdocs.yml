@@ -2,3 +2,34 @@ site_name: Ken Jenney
 theme:
   name: readthedocs
   favicon: images/favicon.png
+plugins:
+  - multirepo:
+      # (optional) tells multirepo to cleanup the temporary directory after site is built.
+      cleanup: true
+      # if set the docs directory will not be removed when importing docs.
+      # When using this with a nav section in an imported repo you must keep the
+      # docs directory in the path (e.g., docs/path/to/file.md).
+      keep_docs_dir: true
+      repos:
+          # There will be a navigation section with this section name
+        - section: Backstage
+          # you can define the edit uri path
+          import_url: 'https://github.com/backstage/backstage?edit_uri=/blob/master/'
+        - section: Monorepo
+          import_url: 'https://github.com/backstage/mkdocs-monorepo-plugin?edit_uri=/blob/master/'
+        - section: 'Techdocs-cli'
+          # note that the branch is still specified in the url
+          import_url: 'https://github.com/backstage/techdocs-cli?branch=main&edit_uri=/blob/main/'
+        - section: FastAPI
+          import_url: 'https://github.com/tiangolo/fastapi?docs_dir=docs/en/docs/*'
+        - section: Monorepo Multi Docs
+          import_url: https://github.com/backstage/mkdocs-monorepo-plugin?multi_docs=True&docs_dir=sample-docs/*
+        - section: 'Django REST'
+          section_path: python # Put this under the python menu entry
+          import_url: 'https://github.com/encode/django-rest-framework'
+        - section: 'Cookiecutter Pypackage'
+          section_path: python # Put this under the python menu entry
+          import_url: 'https://github.com/zillionare/cookiecutter-pypackage'
+        - section: 'Pydantic'
+          section_path: python # Put this under the python menu entry
+          import_url: 'https://github.com/samuelcolvin/pydantic?branch=main'

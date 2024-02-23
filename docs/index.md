@@ -2,4 +2,5 @@
 
 Hello, I'm Ken Jenney
 
-This is my website. It's built with [mkdocs](https://www.mkdocs.org/getting-started/).
+I'm a Cloud Operations Engineer currently employed at [Veracode](https://www.veracode.com/).
+
