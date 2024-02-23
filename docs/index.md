@@ -1,4 +1,4 @@
-# KenJenney.com
+# Welcome
 
 Hello, I'm Ken Jenney
 

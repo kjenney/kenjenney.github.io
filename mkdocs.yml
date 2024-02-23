@@ -1,1 +1,3 @@
 site_name: Ken Jenney
+theme:
+  favicon: images/favicon.png
