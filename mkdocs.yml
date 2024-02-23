@@ -18,6 +18,8 @@ theme:
     - announce.dismiss
     - navigation.top
     - search.highlight
+    - search.suggest
+    - navigation.tabs
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
