@@ -1,7 +1,47 @@
 site_name: Ken Jenney
+site_url: https://kenjenney.com
+site_author: Ken Jenney
+site_description: All kinds of stuff about Ken Jenney
+
+# Repository
+repo_name: kjenney/kenjenney.github.io
+repo_url: https://github.com/kjenney/kenjenney.github.io
+
+# Copyright
+copyright: Copyright &copy; 2024 Ken Jenney
+
 theme:
-  name: readthedocs
+  name: material
   favicon: images/favicon.png
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - navigation.top
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+  font:
+    text: Roboto
+    code: Roboto Mono
+
 plugins:
   - search
   - multirepo:
@@ -20,6 +60,7 @@ plugins:
           imports: [docs/index.md]
 
 nav:
+  - Home: index.md
   - Resume:
       - Contact Info: resume/docs/contact.md
       - Certifications: resume/docs/certifications.md
