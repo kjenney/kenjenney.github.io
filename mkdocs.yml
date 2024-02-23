@@ -12,11 +12,10 @@ copyright: Copyright &copy; 2024 Ken Jenney
 
 theme:
   name: material
-  favicon: images/favicon.png
+  favicon: assets/me.png
+  logo: assets/me.png
   features:
     - announce.dismiss
-    - content.action.edit
-    - content.action.view
     - navigation.top
     - search.highlight
   palette:
