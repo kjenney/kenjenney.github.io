@@ -42,6 +42,8 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
+  extra_css:
+    - assets/css/extra.css
 
 plugins:
   - search
