@@ -59,6 +59,9 @@ plugins:
         - name: tgw-tester
           import_url: https://github.com/kjenney/terraform-aws-tgw-tester?branch=main
           imports: [docs/index.md]
+        - name: ai
+          import_url: https://github.com/kjenney/ai-resources?branch=main
+          imports: [docs/index.md]
 
 nav:
   - Home: index.md
@@ -72,8 +75,4 @@ nav:
       - Terraform:
         - AWS Transit Gateway Tester: tgw-tester/docs/index.md
   - Hobbies:
-      - IOT
-      - Sci-Fi
-      - 3D Printing
-      - AI
-        - Checkout https://www.youtube.com/@matthew_berman
+      - AI: ai/docs/index.md
