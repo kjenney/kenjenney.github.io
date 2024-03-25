@@ -79,3 +79,6 @@ nav:
   - Hobbies: 
       - hobbies/index.md
       - AI: ai/docs/index.md
+  - Blog:
+      - blog/index.md
+      - Pi Cluster: blog/pi-cluster.md
