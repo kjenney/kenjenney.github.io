@@ -20,12 +20,13 @@ Ensure that SSH is enabled for them to make it easier to configure them remotely
 
 Do the following steps on each Pi:
 
-1. Install snapd `sudo apt install snapd`
-2. Reboot
-3. Install snapd core `sudo snap install core`
-4. Install MicroK8S `sudo snap install microk8s --classic`
-5. Install containerd `sudo apt install -y containerd`
-6. Install iptables `sudo apt install -y iptables`
+1. Edit `/boot/firmware/cmdline.txt` and add `cgroup_enable=memory cgroup_memory=1`.
+2. Install snapd `sudo apt install -y snapd`
+3. Reboot
+4. Install snapd core `sudo snap install core`
+5. Install MicroK8S `sudo snap install microk8s --classic`
+6. Install containerd `sudo apt install -y containerd`
+7. Install iptables `sudo apt install -y iptables`
 
 ## Prep MicroK8S
 
@@ -42,7 +43,7 @@ Run this command on the other two Pi's.
 
 ## Allow MicroK8S Registry on Primary
 
-Because the MicroK8S registry is insecure (runs HTTP) there neds to be special configuration to allow it's used.
+Because the MicroK8S registry is insecure (runs HTTP) there neds to be special configuration to allow it's use.
 
 Do the following steps on the primary node:
 
