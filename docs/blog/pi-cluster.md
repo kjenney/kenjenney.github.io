@@ -95,7 +95,7 @@ Containerd needs the CNI plugins to enable networking. Run the following command
 2. tar zxvf nerdctl-1.7.5-linux-arm64.tar.gz 
 3. mv nerdctl /usr/local/bin
 
-## Setup builkit on Primary Node
+## Setup buildkit on Primary Node
 
 In order to build images with `nerdctl` you need `buildkit`. Run the  following commands on the Primary node:
 
