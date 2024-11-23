@@ -82,3 +82,5 @@ nav:
   - Blog:
       - blog/index.md
       - Pi Cluster: blog/pi-cluster.md
+  - Random
+      - random/index.md
