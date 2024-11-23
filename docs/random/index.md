@@ -2,6 +2,8 @@
 
 This is a list of random stuff that I'm tracking
 
+Long-term capital gains - hold onto stocks for more than a year
+
 Helpful LoRA??
 
 https://huggingface.co/ali-vilab/In-Context-LoRA
