@@ -10,6 +10,9 @@ repo_url: https://github.com/kjenney/kenjenney.github.io
 # Copyright
 copyright: Copyright &copy; 2024 Ken Jenney
 
+markdown_extensions:
+  - attr_list
+
 theme:
   name: material
   favicon: assets/me.png
