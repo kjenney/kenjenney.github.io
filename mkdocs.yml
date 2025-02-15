@@ -47,6 +47,7 @@ theme:
 
 plugins:
   - search
+  - social
   - multirepo:
       # (optional) tells multirepo to cleanup the temporary directory after site is built.
       cleanup: false
