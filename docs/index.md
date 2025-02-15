@@ -6,3 +6,5 @@ I'm a Cloud Operations Engineering Manager currently employed at [Veracode](http
 
 Checkout my Resume and projects I'm working on.
 
+[Check out my LinkedIn profile](https://www.linkedin.com/in/kjenney/){ .md-button }
+
