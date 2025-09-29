@@ -15,4 +15,7 @@ https://www.raspberrypi.com/
 Make your own stuff? Sign me up. I use a QIDI 300. Check it out:
 
 https://qidi3d.com/
- 
+
+## AI
+
+Working on a bunch of different projects involving both automation and video processing
