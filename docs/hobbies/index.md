@@ -18,4 +18,4 @@ https://qidi3d.com/
 
 ## AI
 
-Working on a bunch of different projects involving both automation and video processing
+Working on a bunch of different projects involving both automation and video processing. I'm striving to build automation and systems that allow local development with local models. My latest test was [Quopus3.6](https://github.com/kjenney/qwopustest).
